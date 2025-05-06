@@ -125,17 +125,17 @@ int node_height(struct Node* root, int key) { // Calculates the height of a node
 	return (left_height != 0) ? left_height : right_height;
 }
 
-void print_tree_leaves(struct Node* root) {
+void print_tree_leaves(struct Node* root) { //printing the leaves of the tree
 	if (root == NULL) {
 		return;
 	}
 	if (root->left == NULL && root->right == NULL) {
-		printf("Leaf node: %s\n", root->country.countryName);
+		printf("Leaf node: %s\n", root->country.countryName); //Leaf node - a node with no children
 	}
 	else {
-		printf("Internal node: %s\n", root->country.countryName);
-		
-	print_tree_leaves(root->left);
+		printf("Internal node: %s\n", root->country.countryName); // Internal node - a node with children
+
+		print_tree_leaves(root->left);
 		print_tree_leaves(root->right);
 	}
 }
@@ -149,6 +149,7 @@ void free_tree(struct Node* node) {
 
 int main() {
 	struct Node* root = NULL;
+	int countryCount, i, area, year, cityCount, menuOption;
 	int countryCount, i, area, year, cityCount, menuOption;
 
 	printf("Number of countries to insert: ");
@@ -227,7 +228,6 @@ int main() {
 		default:
 			printf("Error. Please enter a number between 1 and 6");
 		}
-	} 
-	while (menuOption != 0);
+	} while (menuOption != 0);
 	return 0;
 }
