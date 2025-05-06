@@ -43,6 +43,7 @@ The third node is Germany. Its area is compared with Moldova’s (357022 > 33843
 Then, Germany’s area is compared with Romania’s (357022 > 238397), so it is inserted to the right of Romania.
 
 The tree looks like this:
+
        Moldova
             \
             Romania
