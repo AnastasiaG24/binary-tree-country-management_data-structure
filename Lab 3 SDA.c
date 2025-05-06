@@ -150,7 +150,6 @@ void free_tree(struct Node* node) {
 int main() {
 	struct Node* root = NULL;
 	int countryCount, i, area, year, cityCount, menuOption;
-	int countryCount, i, area, year, cityCount, menuOption;
 
 	printf("Number of countries to insert: ");
 	scanf_s("%i", &countryCount);
