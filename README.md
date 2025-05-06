@@ -44,10 +44,10 @@ Then, Germany’s area is compared with Romania’s (357022 > 238397), so it is 
 
 The tree looks like this:
        Moldova
-           \
-         Romania
-             \
-           Germania
+            \
+            Romania
+                  \
+                  Germania
 
 ## Language
 - C
