@@ -26,12 +26,13 @@ In order to check if the program works correctly, I introduced information about
 ![Screenshot 2025-05-06 194447](https://github.com/user-attachments/assets/06119f02-e6d6-4829-981b-2bd368e3092b)
 
 3. For the same contries entered above, we have the result of the third option of the menu - Calculate node depth (based on number of cities)
+   
 ![Screenshot 2025-05-06 194750](https://github.com/user-attachments/assets/a3334f38-ffb2-41e9-a64b-1850357dceed)
 
-4. The result of the fourth option of the menu - Calculate node height (based on area)
+5. The result of the fourth option of the menu - Calculate node height (based on area)
 ![image](https://github.com/user-attachments/assets/1754b614-e0ce-46f5-8426-f50b8d259917)
 
-5. The result of the fifth option of the menu - Display all tree leaves. 
+6. The result of the fifth option of the menu - Display all tree leaves. 
 ![image](https://github.com/user-attachments/assets/5b08b51b-9eef-42ac-b5a2-bc091ffe904f)
 
 Explanation of the result:
