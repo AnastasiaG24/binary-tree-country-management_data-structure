@@ -1,4 +1,4 @@
-**# Binary Tree management**
+**## Binary Tree management**
 
 A C program that manages country information using a binary tree data structure.
 It allows insertion, in-order display, height and depth calculations, and more.
@@ -12,7 +12,7 @@ It allows insertion, in-order display, height and depth calculations, and more.
 - Display all tree leaves
 - Free memory
 
-##Screen Captures 
+## Screen Captures 
 
 In order to check if the program works correctly, I introduced information about 3 countries
 ![image](https://github.com/user-attachments/assets/32f2ab5e-e46e-4005-b614-e3a8bbf7d8d3)
